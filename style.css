@@ -151,6 +151,9 @@ header.sticky .navbar a:hover{
     header{
         padding: 16px 55px;
     }
+    header.sticky{
+        padding: 10px 70px;
+    }
     .logo{
         font-size: 1.8rem;
     }
@@ -201,6 +204,9 @@ header.sticky .navbar a:hover{
     #cv{
         padding: 10px 30px;
     }
+    header.sticky{
+        padding: 10px 60px;
+    }
 }
 @media (max-width:560px){
     .name{
@@ -209,6 +215,9 @@ header.sticky .navbar a:hover{
     #cv{
         padding: 10px 25px;
         font-size: 1.3rem;
+    }
+    header.sticky{
+        padding: 10px 50px;
     }
 }
 @media (max-width:434px){
@@ -227,6 +236,9 @@ header.sticky .navbar a:hover{
     #cv{
         padding: 8px 20px;
         font-size: 1rem;
+    }
+    header.sticky{
+        padding: 10px 45px;
     }
 }
 @media (max-width:360px){
@@ -249,6 +261,9 @@ header.sticky .navbar a:hover{
         padding: 8px 20px;
         font-size: .8rem;
     }
+    header.sticky{
+        padding: 10px 35px;
+    }
 }
 @media (max-width:286px){
     header{
@@ -256,6 +271,9 @@ header.sticky .navbar a:hover{
     }
     .name{
         font-size: 2.5rem;
+    }
+    header.sticky{
+        padding: 10px 30px;
     }
 }
 /* *************about section*************** */
