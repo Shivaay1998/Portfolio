@@ -1,3 +1,11 @@
+// Preloader
+
+let loader = document.querySelector(".preloader")
+  
+window.addEventListener("load", ()=>{
+    loader.style.display = "none"
+})
+
 // For responsive navbar
 let header = document.querySelector('header')
 let menu = document.querySelector('#menu-icon')

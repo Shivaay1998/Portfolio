@@ -16,7 +16,21 @@
     <link rel="stylesheet" href="style.css">
 
 <body>
-    <div class="container" >
+    <div class="preloader">
+
+        <div class="loader-wrapper">
+            <!-- The .loader is going to be the element you will use to control the borders to get the displayed effect -->
+            <div class="loader">
+                <!-- 
+                The .loader.loader-inner is going to repeat the same effects as the outer loader.
+                The only difference is that we use an additional lass to control 
+                the inner loader without changing the styles if the original outer loader.
+            -->
+                <div class="loader loader-inner"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
         <div class="inside"></div>
         <header>
             <a class="logo">
@@ -32,7 +46,7 @@
             </ul>
         </header>
         <div class="para" data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">
-            <p class="greet" >Hello, My name is</p>
+            <p class="greet">Hello, My name is</p>
             <p class="name"><span>S</span>hivam <span>D</span>himan</p>
             <p class="details"> And I'm <span class="typing"></span></p>
             <a href="img/Shivam resume.pdf" id="cv">Download CV</a>
@@ -40,7 +54,7 @@
     </div>
     <!-- *_*-*-*-*-*-*-*-*-*-*-*About Section-*-*-*-*-*-*-*-*-*-*-*-*-* -->
     <div class="container_two" id="about">
-        <div class="heading" >
+        <div class="heading">
             <h1 class="logo2">ABOUT ME</h1>
             <h5 id="logo2">ABOUT <span>ME</span></h5>
         </div>
@@ -49,7 +63,7 @@
                 <div class="left-bar">
                     <img src="./img/IMG_20210910_132959.jpg" alt="Man at the beach" class="img">
                 </div>
-                <div class="card__information" >
+                <div class="card__information">
                     <p class="card__information-description " id="para">I'm a Shivam and i'm <span class="typed"></span>
                     </p>
                     <p class="card__information-description" id="para2">I enjoy taking complex problem and turning them
@@ -69,26 +83,26 @@
             <h5 id="logo2">PRO<span>JECT</span></h5>
         </div>
         <div class="project-box" data-aos="fade-up" data-aos-delay="500" data-aos-duration="900">
-                <div class="box1" id="bg_1">
-                    <a href="" class="box2">
-                    </a>
-                </div>
-                <div class="box1" id="bg_2">
-                    <a href="" class="box2"></a>
-                </div>
-                <div class="box1" id="bg_3">
-                    <a href="" class="box2"></a>
-                </div>
-                <div class="box1" id="bg_4">
-                    <a href="" class="box2"></a>
-                </div>
-                <div class="box1" id="bg_5">
-                    <a href="" class="box2"></a>
-                </div>
-                <div class="box1" id="bg_6">
-                    <a href="" class="box2"></a>
-                </div>
-                
+            <div class="box1" id="bg_1">
+                <a href="" class="box2">
+                </a>
+            </div>
+            <div class="box1" id="bg_2">
+                <a href="" class="box2"></a>
+            </div>
+            <div class="box1" id="bg_3">
+                <a href="" class="box2"></a>
+            </div>
+            <div class="box1" id="bg_4">
+                <a href="" class="box2"></a>
+            </div>
+            <div class="box1" id="bg_5">
+                <a href="" class="box2"></a>
+            </div>
+            <div class="box1" id="bg_6">
+                <a href="" class="box2"></a>
+            </div>
+
         </div>
     </div>
     <!-- *********************RESUME****************************** -->
