@@ -472,8 +472,8 @@ header.sticky .navbar a:hover{
 }
 @media (max-width:310px) {
     .card-box .left-bar .img {
-        height: 120px;
-        width: 90px;
+        height: 100px;
+        width: 80px;
     }
     #para{
         font-size: 1.5rem;
@@ -540,9 +540,6 @@ header.sticky .navbar a:hover{
 .box2 p, .box2 i{
     display: none; 
 }
-.box2 i{
-    font-size: 2rem;
-}
 .box2:hover p, .box2:hover i{
     display: inline;
 }
@@ -589,6 +586,11 @@ header.sticky .navbar a:hover{
     width: 130px;
     height: 130px;
    }
+   .box3{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    gap: 10px;
+   }
 }
 @media (max-width:642px) {
     .project-box{
@@ -599,14 +601,24 @@ header.sticky .navbar a:hover{
     width: 90px;
     height: 90px;
    }
+   .box3{
+    font-size: 1.1rem;
+    margin-top: 4px;
+    gap: 6px;
+   }
 }
 @media (max-width:310px) {
     .project-box{
         gap: 6px;
     }
    .box1{
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
+   }
+   .box3{
+    font-size: .8rem;
+    margin-top: 2px;
+    gap: 2px;
    }
 }
 /* *-*-*-*-*-*-*-*-*-*-*-*-*-Resume Section*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* */
