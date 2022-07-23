@@ -523,8 +523,28 @@ header.sticky .navbar a:hover{
     border-radius: 15px;
     top: 0;
     left: 0;
-    background-color: rgb(55, 0, 255);
+    background-color: var(--main-color);
     animation:boxing .8s cubic-bezier(.39,.575,.565,1.000)  both
+}
+.box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+    color: var(--text-color);
+    font-size: 2rem;
+    padding: 20px;
+    gap: 20px;
+}
+.box2 p, .box2 i{
+    display: none; 
+}
+.box2 i{
+    font-size: 2rem;
+}
+.box2:hover p, .box2:hover i{
+    display: inline;
 }
 @keyframes boxing{
     0%{
