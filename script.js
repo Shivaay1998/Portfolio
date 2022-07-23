@@ -46,18 +46,16 @@ AOS.init({
 
 // for sending email's
 
-function sendEmail(){
-    Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "shiv240898@gmail.com",
-        Password : "73CF2204788FFA714C021BC4F8CC72E1F307",
-        To : 'kab240898@gmail.com',
-        From : document.getElementById("email").value,
-        Subject : "This is the subject",
-        Body : "And this is the body"
-    }).then(
-      message => alert(message)
-    );
-}
+// function sendEmail(){
+//     Email.send({
+//         SecureToken: "7f40de78-5db1-4a8a-802f-ca7eeffdf011",
+//         To : 'kab240898@gmail.com',
+//         From : document.getElementById('email').value,
+//         Subject : "This is the subject",
+//         Body : "And this is the body"
+//     }).then(
+//       message => alert(message)
+//     );
+// }
 
 //shivaay1998.github.io/Portfolio/
