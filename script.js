@@ -49,9 +49,9 @@ AOS.init({
 function sendEmail(){
     Email.send({
         Host : "smtp.elasticemail.com",
-        Username : "kab240898@gmail.com",
-        Password : "54DC6298A7DABAD424A18B97D024B5BA2A9C",
-        To : 'shiv240898@gmail.com',
+        Username : "shiv240898@gmail.com",
+        Password : "73CF2204788FFA714C021BC4F8CC72E1F307",
+        To : 'kab240898@gmail.com',
         From : document.getElementById("email").value,
         Subject : "This is the subject",
         Body : "And this is the body"
