@@ -24,13 +24,13 @@ window.onscroll = ()=>{
 }
 // Typing Effects
 var typed = new Typed(".typing", {
-    strings: ["UI Designer", "Web Developer", "Programmer"],
+    strings: ["Web Developer", "Programmer"],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
 })
 var typed1 = new Typed(".typed", {
-    strings: ["UI Designer", "Web Developer", "Programmer"],
+    strings: ["Web Developer", "Programmer"],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
@@ -44,18 +44,5 @@ AOS.init({
     mirror: false,
 });
 
-// for sending email's
-
-// function sendEmail(){
-//     Email.send({
-//         SecureToken: "7f40de78-5db1-4a8a-802f-ca7eeffdf011",
-//         To : 'kab240898@gmail.com',
-//         From : document.getElementById('email').value,
-//         Subject : "This is the subject",
-//         Body : "And this is the body"
-//     }).then(
-//       message => alert(message)
-//     );
-// }
 
 //shivaay1998.github.io/Portfolio/
